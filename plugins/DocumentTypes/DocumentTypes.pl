@@ -25,10 +25,11 @@ my $plugin = MT::Plugin::DocumentTypes->new({
   id            => "documenttypes",
   name          => "DocumentTypes",
   description   => "Adds a new Document asset types supporting Word, PowerPoint, Excel, PDF and Zip document types.",
-  icon			=> "dt-icon.gif",
-  version       => $VERSION,
   author_name   => "Scott Boms",
   author_link   => "http://www.scottboms.com",
+  doc_link      => "http://github.com/scottboms/mt-documenttypes",
+  icon          => "dt-icon.gif",
+  version       => $VERSION,
 });
 
 sub instance { $plugin }
